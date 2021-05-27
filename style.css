@@ -1,0 +1,83 @@
+*{
+    font-family:'Segoe UI';
+}
+
+#cerrar{
+    position: absolute;
+    top: 170px;
+    right: 5px;
+    width: 94px;
+    z-index: 1;
+    background: none;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 39px;
+}
+
+#ico-conversacion{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline;
+}
+
+#container{
+    box-shadow:6px 6px 10px -1px #787878;
+    -moz-box-shadow:6px 6px 10px -1px #787878;
+    -webkit-box-shadow:6px 6px 10px -1px #787878;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 350px;
+    height: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    display: none;
+}
+
+#microfono{
+    width: 66px;
+    height: 55px;
+    border: 2px ridge rgb(134, 134, 134);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.conversation{
+    position: relative;
+    padding: 10px;
+    height: 187px;
+}
+
+.voice2text{
+    position: relative;
+    width: auto;
+    max-width: 250px;
+    font-size: 18px;
+}
+
+.voice2text2{
+    position: relative;
+    margin: 0px;
+    max-width: 250px;
+    float: right;
+    font-size: 18px;
+    background-color: rgba(158, 233, 243, 0.534);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+#robot{
+    width: 50px;
+    position: absolute;
+    top: 162px;
+    left: 5px;
+}
